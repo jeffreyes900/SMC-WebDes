@@ -1,2 +1,2 @@
 # SMC-WebDes
-My first github repository for school
+My first github repository for school.
