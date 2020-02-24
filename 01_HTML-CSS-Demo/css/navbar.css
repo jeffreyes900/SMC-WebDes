@@ -9,6 +9,7 @@ nav {
     left: 0px;
     box-shadow: 0px 2px 4px;
     width: 100%;
+    background-image: linear-gradient(rgba(237,237,237,1), rgba(237,237,237,0.5))
 }
 
 ul.navlinks {
@@ -17,7 +18,7 @@ ul.navlinks {
 
 ul.navlinks li {
 	display: inline-block;
-	margin: 1vh 1vw;
+	margin: 2vh 1vw;
 	font-size: 1.5em;
 }
 
@@ -25,4 +26,19 @@ ul.navlinks li {
 	text-decoration: none;
 	font-family: KronaOne;
 	color: #4F4F4F;
+}
+
+.navlinks a:hover {
+	border-top: 2px solid #979797;
+	border-bottom: 2px solid #979797;
+}
+
+.nav-shim{
+	height: 10vh;
+}
+
+h1{
+	text-align: center;
+	font-family: KronaOne;
+	color: #349e48;
 }

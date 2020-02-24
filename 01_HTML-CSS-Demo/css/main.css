@@ -9,3 +9,27 @@ list-style-type: none;
 body {
 	background-color: #EDEDED;
 }
+
+main {
+	text-align: center;
+}
+
+section.gallery {
+	width: 90%;
+	margin: 10vh auto 10vh auto;
+	
+}
+
+.gallery article {
+	display: inline-block;
+	width: 33%;
+}
+
+.gallery img {
+	width: 20vw;
+	object-fit: cover;
+	margin: auto;
+	vertical-align: middle;
+	border: 2vw solid white;
+	border-radius: 16px;
+}
