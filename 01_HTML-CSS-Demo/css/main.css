@@ -44,4 +44,9 @@ h1.home{
 	font-size: 4em;
 	text-align: center;
 	color: #349e48;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
 }
