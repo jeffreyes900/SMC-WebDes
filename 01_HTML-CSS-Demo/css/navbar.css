@@ -25,6 +25,7 @@ ul.navlinks li {
 .navlinks a{
 	text-decoration: none;
 	font-family: KronaOne;
+	color: #4F4F4F;
 }
 
 .navlinks a:hover {
@@ -34,10 +35,4 @@ ul.navlinks li {
 
 .nav-shim{
 	height: 10vh;
-}
-
-h1{
-	text-align: center;
-	font-family: KronaOne;
-	color: #349e48;
 }

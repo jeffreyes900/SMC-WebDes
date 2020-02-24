@@ -1,4 +1,8 @@
 @import url("navbar.css");
+@font-face {
+  font-family: Handlee;
+  src: url(../assets/fonts/Handlee-Regular.ttf);
+}
 
 * {
 margin: 0;
@@ -32,4 +36,11 @@ section.gallery {
 	vertical-align: middle;
 	border: 2vw solid white;
 	border-radius: 16px;
+}
+
+h1.home{
+	font-family: Handlee;
+	font-size: 4em;
+	text-align: center;
+	color: #349e48;
 }
