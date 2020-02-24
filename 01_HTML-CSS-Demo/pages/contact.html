@@ -18,28 +18,35 @@
 	</header>
 	<div class="nav-shim"></div>
 	<main>
-		<h2>About Me</h2>
+		<h2 class="contact">About Me</h2>
 		<section>
-			<img src="../assets/img/profileIcon_gfj4xu6spq121.jpg" alt="profile icon for WillowAndRoxas">
-			<p>dasfjl</p>
-			<p>asfgdjk</p>
+			<img class="contact-page" src="../assets/img/profileIcon_gfj4xu6spq121.jpg" alt="profile icon for WillowAndRoxas">
+			<p>I'm a little artist who loves what she does! My insta is @willowandroxas or you can check out r/WillowandRoxasArt if you'd like to see more!</p>
+			<p>I do offer signed prints of any pieces that I make which were not private commissions for individuals. You can find prints of my work here in my Etsy shop. If you like my work this is a great way to support me and to enable me to create more art!</p>
+			<p>If you'd like information regarding my availability or rates for custom work then the best way to reach me is to visit my shop and click "contact artist". Make sure to give me as much information regarding what you're looking for as possible (size, amount of characters, style) and I'll get back to you with a quote! </p>
+			<p>More important than anything else however I love your feedback, ideas, and interest! Thanks so much for liking my art and encouraging me!</p>
 		</section>
 		<section>
 			<form action="" method="POST">
-				<fieldset>
+				<fieldset class="contact-page">
 					<legend>Contact Me:</legend>
-					<label for="fname">First Name:</label>
-					<input type="text" id="fname" name="fname">
+					<div>
+						<label for="fname">First Name:</label>
+						<input class="single-line-field" type="text" id="fname" name="fname">
+						<div class="clear-left"></div>
 
-					<label for="lname">Last name:</label>
-    				<input type="text" id="lname" name="lname">
+						<label for="lname">Last name:</label>
+	    				<input class="single-line-field" type="text" id="lname" name="lname">
+	    				<div class="clear-left"></div>
 
-    				<label for="email">Email:</label>
-    				<input type="email" id="email" name="email">
+	    				<label for="email">Email:</label>
+	    				<input class="single-line-field" type="email" id="email" name="email">
+	    				<div class="clear-left"></div>
 
-    				<label for="message">Message:</label>
-    				<input type="text" id="message" name="message">
-
+	    				<label for="message">Message:</label>
+	    				<textarea class="multi-line-field" id="message" name="message">Make sure to give me as much information regarding what you're looking for as possible (size, amount of characters, style) and I'll get back to you with a quote!</textarea>
+	    				<div class="clear-left"></div>
+	    			</div>
 				</fieldset>
 				<input type="submit" name="submit" id="Submit" value="Submit">
 			</form>

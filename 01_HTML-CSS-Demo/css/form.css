@@ -1,0 +1,47 @@
+fieldset.contact-page {
+	height: 40vh;
+}
+
+.contact-page div {
+	margin: auto;
+    width: 30%;
+	padding: 10px;
+}
+
+.contact-page label,
+.contact-page input {
+	float: left;
+}
+
+.contact-page input {
+	width: 100%;
+}
+
+img.contact-page{
+	border: 2vw solid white;
+	border-radius: 16px;
+}
+
+.clear-left{
+	clear: left;
+}
+
+.single-line-field{
+	height: 2vh;
+	border-radius: 8px;
+	padding: 4px;
+}
+
+.multi-line-field{
+	height: 16vh;
+	border-radius: 8px;
+	padding: 4px;
+	width: 100%
+}
+
+h2.contact{
+	font-family: Handlee;
+	font-size: 2em;
+	text-align: center;
+	color: #349e48;
+}
