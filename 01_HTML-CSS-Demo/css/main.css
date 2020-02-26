@@ -39,6 +39,10 @@ section.gallery {
 	border-radius: 16px;
 }
 
+.gallery img:hover {
+	border: 2vw solid #4F4F4F;
+}
+
 h1.home{
 	font-family: Handlee;
 	font-size: 4em;
@@ -49,4 +53,13 @@ h1.home{
 
 a {
 	text-decoration: none;
+
+}
+
+a.home:hover {
+	border-bottom: 2px solid #349e48;
+}
+
+a.home:active {
+	font-size: 1.1em;
 }

@@ -1,5 +1,6 @@
 fieldset.contact-page {
 	height: 40vh;
+	background-color: #58AE69;
 }
 
 .contact-page div {
@@ -13,11 +14,25 @@ fieldset.contact-page {
 	float: left;
 }
 
+.contact-page label {
+	color: white;
+	font-family: Handlee;
+}
+
 .contact-page input {
 	width: 100%;
 }
 
-img.contact-page{
+.contact-page p{
+	width: 36vw;
+	margin: auto;
+	padding: 1em;
+	text-align: left;
+	font-family: KronaOne;
+	font-size: .9em;
+}
+
+.contact-page img{
 	border: 2vw solid white;
 	border-radius: 16px;
 }
@@ -33,7 +48,7 @@ img.contact-page{
 }
 
 .multi-line-field{
-	height: 16vh;
+	height: 12vh;
 	border-radius: 8px;
 	padding: 4px;
 	width: 100%
