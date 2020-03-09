@@ -1,3 +1,4 @@
 .blue-bg{
-	background-image: linear-gradient(rgba(85, 175, 255, 0.2), rgba(85, 175, 255, 0.1))
+	/*background-image: linear-gradient(rgba(85, 175, 255, 0.1), rgba(85, 175, 255, 0.3))*/
+	border-bottom: 2px solid #ffffff96;
 }

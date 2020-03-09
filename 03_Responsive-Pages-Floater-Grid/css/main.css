@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(85, 175, 255, 0.1), rgba(85, 175, 255, 0.5))
 }
 
 header {
@@ -49,9 +50,12 @@ ul.nav-links {
     color: rgb(33, 36, 38);
 }
 
+.nav-links a:hover {
+    text-decoration: underline solid rgb(85, 175, 255, 0.1);
+}
+
 main {
     width: 100%;
-    background-color: rgba(85, 175, 255, 0.2);
     margin: auto;
 }
 
