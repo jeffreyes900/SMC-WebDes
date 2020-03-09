@@ -3,6 +3,18 @@
     min-height: 200px;
 }
 
+.floater p{
+    padding: 20px;
+}
+
+div.img {
+    text-align: center;
+}
+
+.img img {
+    max-width: 60%;
+}
+
 /* THESE ARE THE SECTIONS FOR THE DEFAULT (MOBILE) VIEW */
 .w-100 {
     width: 100%;
