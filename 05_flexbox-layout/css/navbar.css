@@ -1,0 +1,133 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .logo {
+    max-width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav .logo-container {
+    background-color: #2b72e2;
+    text-align: center;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+nav  ul li {
+    padding: 10px;
+    border-bottom: 2px solid #ffffff96;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+.order-3{
+    order: 3;
+}
+
+.image-grid img {
+    width: 80%;
+}
+
+.image-grid p {
+    padding: 10px;
+}
+
+section.flex {
+    align-items: center;
+}
+
+
+@media(min-width: 500px) {
+
+nav.flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+nav ul.flex {
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: center;
+        align-items: center;
+    }
+
+nav .logo {
+    max-width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav .logo-container {
+    text-align: center;
+}
+
+nav ul li {
+        border-bottom: none;
+        border-right: 1px solid #ffffff96;
+        border-left: 1px solid #ffffff96;
+        /* margin: 0px 10px; */
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+.order-md-1{
+    order: 1;
+}
+
+.order-md-2{
+    order: 2;
+}
+
+.order-md-3{
+    order: 3;
+}
+
+}
+
+@media(min-width: 960px){
+    nav.flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav .logo {
+        max-width: 40%;
+    }
+
+
+
+    nav ul.flex {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-grow: 2;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav li:first-child {
+        border-left: none;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        border-right: 1px solid #ffffff96;
+        border-left: 1px solid #ffffff96;
+        /* margin: 0px 10px; */
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+}
