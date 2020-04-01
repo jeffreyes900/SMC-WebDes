@@ -18,7 +18,8 @@ div.page1-type {
 	font-size: 18px;
 }
 
-.page1-type em {
+.page1-type em, 
+strong {
 	text-decoration: underline;
 	color: #444; 
 }
