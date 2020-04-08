@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+.gd-1{
+    background-image: url("../img/dulans-food1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .gd-3 {
     grid-row: 2/4;
 }
@@ -46,23 +52,8 @@
     }
 }
 
-@media (min-width: 768px) {
-    .toggle-button {
-        display: none;
-    }
-
-    ul.nav-links {
-        display: block;
-        float: right;
-    }
-
-    .nav-links li {
-        display: inline-block;
-        padding: 10px;
-        border-bottom: none;
-    }
-
-    main {
-        width: 650px;
+@media(min-width: 768px){
+    .grid-container {
+    width: 100%;
     }
 }

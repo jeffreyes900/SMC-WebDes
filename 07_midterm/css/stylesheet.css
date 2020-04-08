@@ -24,7 +24,6 @@ header{
 	width: 100%;
 	background-color: #252422;
 }
-
 .logo {
     max-width: 100px;
     margin: 10px;
@@ -46,6 +45,7 @@ ul.nav-links {
 }
 
 nav.side-scroll {
+	display: none;
 	position: fixed;
 	top: 45vh;
 	right: 5vw;
@@ -59,13 +59,13 @@ ul {
 ul.nav-links {
     list-style: none;
     padding: 0px;
-    
+    text-align: right;
     font-family: 'BebasNeue-Bold', cursive;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nav-links li {
-    padding: 1.5vw 0px 5px 5vw;
+    padding: 10px 12px 5px 0px;
 }
 
 .nav-links a{
@@ -100,3 +100,27 @@ form {
 	width: 100%;
 }
 
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    ul.nav-links {
+        display: block;
+        float: right;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        padding: 10px;
+        border-bottom: none;
+    }
+
+    main {
+        width: 650px;
+        margin: auto;
+    }
+    nav.side-scroll {
+    	display: block;
+    }
+}
