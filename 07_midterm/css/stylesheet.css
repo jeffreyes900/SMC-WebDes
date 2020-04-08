@@ -1,0 +1,102 @@
+@import url("grid.css");
+@import url("colors.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: BebasNeue-Bold;
+    src:url("../fonts/bebasneue-bold.otf");
+}
+
+@font-face{
+	font-family: Merriweather-Regular;
+    src:url("../fonts/merriweather-regular.ttf");
+}
+
+body{
+	background-color: #D7D7D7;
+}
+
+header{
+	width: 100%;
+	background-color: #252422;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 10px;
+}
+
+.toggle-button {
+    width: 40px;
+    float: right;
+    margin: 10px;
+}
+
+#toggleAssist,
+ul.nav-links {
+    display: none;
+}
+
+#toggleAssist:checked + ul.nav-links {
+    display: block;
+}
+
+nav.side-scroll {
+	position: fixed;
+	top: 45vh;
+	right: 5vw;
+	opacity: 50%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.nav-links {
+    list-style: none;
+    padding: 0px;
+    
+    font-family: 'BebasNeue-Bold', cursive;
+    font-size: 20px;
+}
+
+.nav-links li {
+    padding: 1.5vw 0px 5px 5vw;
+}
+
+.nav-links a{
+    color: #F2F2F2;
+    text-decoration: none;    
+	}
+
+.nav-links a:hover{
+	text-decoration: underline;
+	}
+
+nav figure {
+	width: 2vw;
+	height: 2vw;
+	border: 0.2vw solid white;
+	background-color: black;
+	border-radius: 50%;
+	margin-bottom: 1vw;
+}
+
+	nav figure:hover {
+		background-color: white;
+		border-color: black;
+	}
+
+form {
+	display: inline-block;
+	padding-top: 1.3vw;
+}
+
+.home-image{
+	width: 100%;
+}
+
