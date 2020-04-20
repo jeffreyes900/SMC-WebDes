@@ -7,12 +7,17 @@
 }
 
 @font-face{
-	font-family: BebasNeue-Bold;
-    src:url("../fonts/bebasneue-bold.otf");
+	font-family: DancingScript;
+    src:url("../fonts/DancingScript.ttf");
 }
 
 @font-face{
-	font-family: Merriweather-Regular;
+	font-family: BebasNeue;
+    src:url("../fonts/BebasNeue-Bold.otf");
+}
+
+@font-face{
+	font-family: Merriweather;
     src:url("../fonts/merriweather-regular.ttf");
 }
 
@@ -60,7 +65,7 @@ ul.nav-links {
     list-style: none;
     padding: 0px;
     text-align: right;
-    font-family: 'BebasNeue-Bold', cursive;
+    font-family: 'BebasNeue', cursive;
     font-size: 30px;
 }
 
@@ -80,7 +85,6 @@ ul.nav-links {
 nav figure {
 	width: 2vw;
 	height: 2vw;
-	border: 0.2vw solid white;
 	background-color: black;
 	border-radius: 50%;
 	margin-bottom: 1vw;
@@ -88,7 +92,6 @@ nav figure {
 
 	nav figure:hover {
 		background-color: white;
-		border-color: black;
 	}
 
 form {
@@ -100,7 +103,7 @@ form {
 	width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .toggle-button {
         display: none;
     }
@@ -117,7 +120,7 @@ form {
     }
 
     main {
-        width: 650px;
+        /*width: 650px;*/
         margin: auto;
     }
     nav.side-scroll {
