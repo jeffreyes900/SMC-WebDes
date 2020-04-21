@@ -107,6 +107,8 @@ form {
 .gd-1-med {
     	display: none;
     }
+
+
 @media(min-width: 560px){
 	.gd-1-med {
     	display: block;
