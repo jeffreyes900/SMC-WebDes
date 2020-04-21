@@ -136,7 +136,7 @@ background-color: #252422;
 
     padding: 8px;
     padding-top: 24px;
-    color: #F2F2F2;
+    color: #E1D50E;
     text-align: center;
 }
 
@@ -216,8 +216,12 @@ background-color: #252422;
     }
 
     .visitor-info-container{
-    grid-template-rows: 800px auto 600px auto 600px;
+    grid-template-rows: 900px auto 600px auto 600px;
     
+    }
+
+    .vi-gd-1{
+        background-position: center top;
     }
 
     .vi-gd-3,

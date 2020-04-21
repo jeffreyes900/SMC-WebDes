@@ -1,0 +1,103 @@
+main{
+	background-image: url("../img/dulans-inside.jpg");
+}
+fieldset.contact-page {
+	text-align: center;
+	padding: 20px;
+	border: none;
+	height: 60vh;
+}
+
+.contact-page div {
+	margin: auto;
+    width: 90%;
+	padding: 10px;
+}
+
+.contact-page label,
+.contact-page input {
+	float: left;
+	font-family: Merriweather;
+	box-sizing: border-box;
+}
+
+.contact-page label {
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.contact-page input {
+	width: 100%;
+}
+
+.contact-page [type=submit]{
+	padding: 16px 24px;
+	box-sizing: border-box;
+	width: 120px;
+	float: none;
+	cursor: pointer;
+	border: none;
+	background-color: #252422;
+	font-family: BebasNeue;
+	font-size: 24px;
+	color: white;
+
+}
+
+.contact-header{
+	text-align: center;
+	color: white;
+	font-size: 48px;
+}
+
+.contact-page p{
+	width: 36vw;
+	margin: auto;
+	padding: 1em;
+	text-align: left;
+	font-family: Merriweather;
+	font-size: .9em;
+}
+
+.contact-page img{
+	border: 2vw solid white;
+	border-radius: 16px;
+}
+
+.clear-left{
+	clear: left;
+}
+
+.single-line-field{
+	height: 2vh;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.multi-line-field{
+	font-family: Merriweather;
+	height: 12vh;
+	border-radius: 8px;
+	padding: 12px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.contact{
+	font-family: DancingScript;
+	padding-top: 32px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+@media(min-width: 560px){
+	.contact-page div {
+		width: 80%;
+	}
+
+}
+
+@media(min-width: 769px){
+	.contact-page div {
+		width: 35%;
+	}
+	}
