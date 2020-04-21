@@ -141,6 +141,7 @@ width:100%;
     ul.nav-links {
         display: block;
         float: right;
+        margin-right: 24px;
     }
 
     .nav-links li {
