@@ -103,6 +103,21 @@ form {
 	width: 100%;
 }
 
+.gd-1-large,
+.gd-1-med {
+    	display: none;
+    }
+@media(min-width: 560px){
+	.gd-1-med {
+    	display: block;
+    	font-size: 16px;
+    	padding-top: 8px;
+    }
+    .gd-3-small {
+    	display: none;
+    }
+}    
+
 @media (min-width: 769px) {
     .toggle-button {
         display: none;
@@ -125,5 +140,20 @@ form {
     }
     nav.side-scroll {
     	display: block;
+    }
+
+    .gd-1-large {
+    	display: block;
+    	font-family: Merriweather;
+    	font-size: 18px;
+    	padding-top: 16px;
+    	column-count: 3;
+    }
+    .gd-1-med {
+    	display: none;
+    }
+
+    .gd-3-small {
+    	display: none;
     }
 }
