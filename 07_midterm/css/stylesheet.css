@@ -108,6 +108,13 @@ form {
     	display: none;
     }
 
+.menu-image{
+    width: 100%;
+}
+
+.menu-sm{
+width:100%;
+} 
 
 @media(min-width: 560px){
 	.gd-1-med {
@@ -118,6 +125,12 @@ form {
     .gd-3-small {
     	display: none;
     }
+
+    .menu-med{
+    	width: 540px;
+    	margin: auto;
+}
+
 }    
 
 @media (min-width: 769px) {
@@ -158,4 +171,10 @@ form {
     .gd-3-small {
     	display: none;
     }
+
+    .menu-lrg{
+    	width: 760px;
+    	margin: auto;
 }
+}
+
