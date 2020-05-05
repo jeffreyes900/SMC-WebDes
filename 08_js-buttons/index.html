@@ -11,6 +11,29 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-  
+    	<section>
+    		<div class="pane" id="gray"></div>
+	  		<button id="button1" class="button">Red pane</button>
+	  		<div class="pane" id="teal"></div>
+	  		<button id="button2" class="button">Halve pane</button>
+	  	</section>	
     </body>
+
+    <script type="text/javascript">
+    	var paneOne = document.getElementById("gray");
+    	var buttonOne = document.getElementById("button1");
+
+    	var paneTwo = document.getElementById("teal");
+    	var buttonTwo = document.getElementById("button2");
+
+    	buttonOne.onclick = function() {paneToRed()};
+    	function paneToRed() {
+    	paneOne.style.backgroundColor = "red";
+    	}
+
+    	buttonTwo.onclick = function() {paneHalved()};
+    	function paneHalved() {
+    		paneTwo.style.width = "50%";
+    	}
+    </script>
 </html>

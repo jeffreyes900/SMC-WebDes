@@ -1,0 +1,24 @@
+.button {
+	padding: 16px 24px;
+	box-sizing: border-box;
+	width: 120px;
+	float: none;
+	cursor: pointer;
+	border: none;
+	background-color: #252422;
+	font-size: 14px;
+	color: white;
+}
+
+.pane {
+	width: 100%;
+	height: 200px;
+}
+
+#gray {
+	background-color: gray;
+}
+
+#teal {
+	background-color: teal;
+}
