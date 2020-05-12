@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>Image Source Clicking</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" class="logo" alt="company logo">
+
+      <label for="toggleAssist">
+        <img src="img/hamburger-flat-icon.png" class="toggle-button" alt="hamburger menu toggle button">
+      </label>
+      <input type="checkbox" id="toggleAssist">
+      
+      <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section>
+      <h1>Hello World</h1>
+
+      <div class="grid grid-container">
+      	<div><img id="preview-1" src="img/earth.jpg" alt="image of earth at night" onclick="imageSwitch('image of earth at night')"></div>
+      	<div><img id="preview-2" src="img/moon.jpg" alt="astronaut and rover on the moon" onclick="imageSwitch('astronaut and rover on the moon')"></div>
+      	<div><img id="preview-3" src="img/aliens.jpg" alt="an alien pointing at you" onclick="imageSwitch('an alien pointing at you')"></div>
+      	<div><img id="preview-4" src="img/team.jpg" alt="nasa graduating team" onclick="imageSwitch('nasa graduating team')"></div>
+      </div>
+      <img id="fullSize" src="img/earth.jpg" alt="image of earth at night">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum doloremque provident dolores officia? Cum cupiditate voluptas, voluptatibus consectetur assumenda fugit obcaecati itaque illum eveniet ab, dolorem non, laboriosam cumque esse?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex repudiandae totam, blanditiis pariatur magni cupiditate a quisquam enim consectetur iusto sunt saepe natus vitae harum delectus accusamus tempore. Accusamus!</p>
+    </section>
+  </main>
+  
+  
+  <footer></footer>
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
