@@ -5,6 +5,8 @@ var imagePreviewTeam = document.getElementById("preview-4");
 
 var imageMainContent = document.getElementById("fullSize");
 
+var hamburgerImg = document.getElementById("hamburgerIcon");
+
 var imageSwitch = function(newImage) {
 	if(newImage == "image of earth at night"){
 		imageMainContent.src = "img/earth.jpg";
@@ -20,7 +22,21 @@ var imageSwitch = function(newImage) {
 	}
 	else{
 
+	}	
+}
+
+var swapHamburgerIcon = function(){
+
+	if (hamburgerImg.alt == "hamburger menu toggle button") {
+
+		hamburgerImg.src = "img/hamburger-flat-icon-white.png";
+		hamburgerImg.alt = "hamburger menu toggle button white";
 	}
-	
+
+	else {
+
+		hamburgerImg.src = "img/hamburger-flat-icon.png";
+		hamburgerImg.alt = "hamburger menu toggle button";
+	}
 }
 
