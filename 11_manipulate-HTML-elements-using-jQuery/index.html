@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulating HTML elements with jQuery</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="page1-type">Colored Boxes</h1>
+        <h2 class="page1-type">They're cool, and so colorful</h2>
+        <div class="wrapper page1-type">
+            <div class="box a red-bg"><img class="hideable-img1" src="img/img2.jpg" alt="tomatoes"></div>
+            <div class="box b green-bg"><img class="hideable-img2" src="img/img1.jpg" alt="green peas"></div>
+            <div class="box c ">
+                <div>
+                    <button class="c-button red-bg" id="c-button1">Toggle box A</button>
+                </div>
+                <div>
+                    <button class="c-button green-bg" id="c-button2">Toggle box B</button>
+                </div>
+            </div>
+            <div class="box d ">
+                <div>
+                    <button class="d-button light-blue-bg" id="d-button1">Toggle box E</button>
+                </div>
+                <div>
+                    <button class="d-button purple-bg" id="d-button2">Toggle box F</button>
+                </div>
+            </div>
+            <div class="box e light-blue-bg">
+                <img class="hideable-img3" src="img/img3.jpg" alt="blue berries">
+            </div>
+            <div class="box f purple-bg">
+                <img class="hideable-img4" src="img/img4.jpg" alt="purple grapes">
+            </div>
+            <div class="box g">
+            </div>
+            <div class="box h">
+                <div>
+                    <button class="h-button red-bg" id="h-button1">Add a box</button>
+                </div>
+                <div>
+                    <button class="h-button red-bg" id="h-button2">Remove box</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
