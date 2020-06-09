@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 360px;
+	margin: auto;
+}
+
+.primary-img {
+	width: 100%;
+}
+
+.tile {
+	width: 344px;
+	margin: 8px auto 8px auto;
+
+}
+
+.tile img {
+	width: 100%;
+}
+
+.header {
+	height: 80px;
+	background-color: gray;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	height: 80px;
+}
+
+.donate{
+	background-color: orange;
+}
+
+.menu {
+	background-color: green;
+}
+
+.hero {
+	height: 200px;
+	background-color: pink;
+}
+
+.slogan {
+	height: 160px;
+	background-color: gray;
+}
+
+.club-meet-announcement {
+	height: 120px;
+	background-color: blue;
+}
+
+@media(min-width: 768px){
+	body{
+		width: 768px;
+	}
+
+}
+
+@media(min-width: 1440px){
+	body{
+		width: 1440px;
+	}
+}
