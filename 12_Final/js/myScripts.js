@@ -7,7 +7,8 @@ $(document).ready(function() {
         contain: true,
         freeScroll: true,
         wrapAround: true,
-        watchCSS: true
+        watchCSS: true,
+        prevNextButtons: false
     });
 
 });

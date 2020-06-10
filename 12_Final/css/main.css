@@ -28,8 +28,8 @@ body{
 
 .tile {
 	width: 344px;
-	margin: 8px auto 8px auto;
-
+	margin: 18px auto;
+	border-radius: 5px;
 }
 
 .tile img {
@@ -45,6 +45,10 @@ body{
 	width: 100%;
 }
 
+.header-tablet{
+		display: none;
+	}
+
 .grid-container{
 	display: grid;
 	grid-template-columns: 60% 40%;
@@ -53,7 +57,6 @@ body{
 
 .donate{
 	background-color: #191966;
-	border: 1px solid white;
 	color: white;
 	font-family: MontserratRegular, sans-serif;
 	text-align: center;
@@ -63,11 +66,15 @@ body{
 .donate:active {
 	background-color: white;
 	color: #191966;
-	border-color: #191966;
+	border: 3px solid #191966;
 }
 
 .donate h2 {
 	margin-top: 25px;
+}
+
+.donate:active h2 {
+	margin-top: 22px;
 }
 
 .menu {
@@ -102,7 +109,7 @@ body{
 	display: none;
 	position: absolute;
 	width: 144px;
-	height: 660px;
+	
 	top: 70px;
 	right: 0px;
 	background-color: lightgray;
@@ -154,6 +161,18 @@ body{
 	text-align: center;
 }
 
+.p1 {
+	padding: 16px 0px 8px 0px;
+}
+
+.p2 {
+	padding: 8px 0px;
+}
+
+.p3 {
+	padding: 0px 8px;
+}
+
 .carousel {
   background: #EEE;
 }
@@ -190,19 +209,72 @@ body{
 	background-size: cover;
 }
 
+.cc5 {
+	background-image: url("../img/cc5.jpeg");
+	background-size: cover;
+}
+
 @media(min-width: 768px){
 	body{
 		width: 768px;
 	}
 
-	.main-carousel:after {
-    	content: '';
-  	}
+	.tile {
+		width: 752px;
+	}
 
+	.header {
+		height: 100px;
+	}
+
+	.header-phone{
+		display: none;
+	}
+	.header-tablet{
+		display: block;
+	}
+	
+	.grid-container{
+		grid-template-columns: 400px 1.1fr 1fr;
+		height: 100px;
+	}
+
+	#toggleAssist,
+	.nav-links {
+		width: 175px;
+	}
+	.donate h2 {
+		margin-top: 35px;
+	}
+
+	.donate:active h2 {
+		margin-top: 32px;
+	}
+
+	.menu img {
+		top: 30px;
+	
+	}
+
+	.menu h3 {		
+		top: 38px;
+	}
+
+	.slogan {
+		text-align: center;
+	}
+
+	.carousel-cell {
+		height: 300px;
+	}
 }
 
 @media(min-width: 1440px){
 	body{
 		width: 1440px;
 	}
+
+	.main-carousel:after {
+    	content: '';
+  	}
 }
