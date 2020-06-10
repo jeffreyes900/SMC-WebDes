@@ -8,7 +8,8 @@ $(document).ready(function() {
         freeScroll: true,
         wrapAround: true,
         watchCSS: true,
-        prevNextButtons: false
+        prevNextButtons: false,
+        pageDots: false
     });
 
 });

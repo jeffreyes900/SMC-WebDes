@@ -78,9 +78,11 @@ body{
 }
 
 .menu {
-	background-color: lightgray;
+	background-color: white;
 	position: relative;
 	z-index: 2;
+	border-top: 3px solid #191966;
+	border-bottom: 3px solid #191966;
 }
 
 .menu img {
@@ -112,7 +114,7 @@ body{
 	
 	top: 70px;
 	right: 0px;
-	background-color: lightgray;
+	background-color: white;
 	z-index: 2;
 }
 
@@ -122,7 +124,6 @@ body{
 
 .nav-links ul {
 	list-style: none;
-	padding: 20px;
 }
 
 .nav-links a {
@@ -131,15 +132,14 @@ body{
 	font-family: RobotoSlab;
 }
 .nav-links li {
-	margin-top: 16px;
-	margin-bottom: 16px;
-	padding: 8px 0px 8px 0px;
-	border-bottom: 1px solid white;
+	padding: 18px 0px 18px 16px;
+	border-bottom: 3px solid #191966;
 }
 
 .hero {
 	height: 200px;
 	text-align: center;
+	margin-top: 16px;
 }
 
 .slogan {
@@ -277,4 +277,16 @@ body{
 	.main-carousel:after {
     	content: '';
   	}
+
+  	.donate:active h2 {
+		margin-top: 0px;
+	}
+
+	.donate:hover {
+		border: 3px solid white;
+	}
+
+	.donate:hover h2 {
+		margin-top: 32px;
+	}
 }
