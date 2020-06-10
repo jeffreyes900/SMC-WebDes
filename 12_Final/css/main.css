@@ -23,7 +23,7 @@ body{
 }
 
 .primary-img {
-	width: 100%;
+	height: 100%;
 }
 
 .tile {
@@ -118,14 +118,26 @@ body{
 	padding: 20px;
 }
 
+.nav-links a {
+	color: #191966;
+	text-decoration: none;
+	font-family: RobotoSlab;
+}
+.nav-links li {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 8px 0px 8px 0px;
+	border-bottom: 1px solid white;
+}
+
 .hero {
 	height: 200px;
-	background-color: pink;
+	text-align: center;
 }
 
 .slogan {
-	height: 160px;
-	background-color: gray;
+	height: 120px;
+	background-color: #191966;
 	color: white;
 	font-family: MontserratRegular, sans-serif;
 }
@@ -135,9 +147,9 @@ body{
 }
 
 .club-meet-announcement {
-	height: 120px;
-	background-color: blue;
-	color: white;
+	height: 160px;
+	background-color: #fffb66;
+	color: #191966;
 	font-family: MontserratRegular, sans-serif;
 	text-align: center;
 }
@@ -155,8 +167,27 @@ body{
   width: 66%;
   height: 200px;
   margin-right: 10px;
-  background: #8C8;
   border-radius: 5px;
+}
+
+.cc1 {
+	background-image: url("../img/cc1.jpg");
+	background-size: cover;
+}
+
+.cc2 {
+	background-image: url("../img/cc2.jpg");
+	background-size: cover;
+}
+
+.cc3 {
+	background-image: url("../img/cc3.jpg");
+	background-size: cover;
+}
+
+.cc4 {
+	background-image: url("../img/cc4.jpg");
+	background-size: cover;
 }
 
 @media(min-width: 768px){
