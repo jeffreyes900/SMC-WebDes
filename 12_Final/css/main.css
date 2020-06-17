@@ -22,6 +22,11 @@ body{
 	margin: auto;
 }
 
+h1 {
+	font-family: MontserratBold, sans-serif;
+	color: #191966;
+}
+
 .primary-img {
 	height: 100%;
 }
@@ -30,6 +35,26 @@ body{
 	width: 344px;
 	margin: 18px auto;
 	border-radius: 5px;
+}
+
+.tile p{
+	font-family: MontserratRegular, sans-serif;
+	margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 24px;
+}
+
+.tile h2{
+	font-family: MontserratBold, sans-serif;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.blueBG {
+	background-color: #191966;
+	color: white;
+	border-radius: 12px;
+	padding: 16px 8px;
 }
 
 .tile img {
@@ -58,6 +83,7 @@ body{
 .donate{
 	background-color: #191966;
 	color: white;
+	text-decoration: none;
 	font-family: MontserratRegular, sans-serif;
 	text-align: center;
 	z-index: 1;
@@ -161,16 +187,21 @@ body{
 	text-align: center;
 }
 
-.p1 {
+p.p1 {
 	padding: 16px 0px 8px 0px;
+	line-height: normal;
 }
 
-.p2 {
+p.p2 {
 	padding: 8px 0px;
+	margin: 0px;
+	line-height: normal;
 }
 
-.p3 {
+p.p3 {
 	padding: 0px 8px;
+	margin: 0px;
+	line-height: normal;
 }
 
 .carousel {
@@ -262,9 +293,63 @@ body{
 .donation-hero {
 	width: 360px;
 	margin: auto;
+	position: relative;
+	text-align: center;
 }
 .donation-hero img {
 	width: 100%;
+}
+
+.donation-hero h1 {
+	position: absolute;
+	top: 32px;
+	left: 34px;
+	z-index: 1;
+}
+
+.financial-buttons {
+	text-align: center;
+}
+.financial-buttons button{
+	width: 320px;
+	padding: 20px;
+	margin: 16px 0px;
+	background-color: #fffb66;
+	color: #191966;
+	font-family: MontserratBold, sans-serif;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.donate-buttons {
+	text-align: center;
+	width: 344px;
+}
+
+.donate-buttons button,
+.donate-buttons input {
+	width: 320px;
+	padding: 20px;
+	margin: 8px 0px;
+	background-color: #e6e6e6;
+	color: #191966;
+	font-family: MontserratBold, sans-serif;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.donate-buttons input {
+	font-size: 24px;
+	padding: 13px 20px 14px 20px;
+}
+
+button.highlight {
+	background-color: #fffb66;
+}
+
+#submitDonation {
+	background-color: #191966;
+	color: white;
 }
 
 @media(min-width: 768px){
