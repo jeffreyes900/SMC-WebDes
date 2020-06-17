@@ -322,6 +322,7 @@ p.p3 {
 }
 
 .donate-buttons {
+	margin: auto;
 	text-align: center;
 	width: 344px;
 }
