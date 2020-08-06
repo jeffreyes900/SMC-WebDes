@@ -1,0 +1,47 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  background-color: #fff;
+  color: #444;
+  margin: auto;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+
+  height: 30vh;
+}
+
+.box {
+  position: relative;
+}
+
+.box img {
+  width: 50%;
+}
+
+.centeredImage {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.d img,
+.e img {
+  top: 17%;
+}
+
+@media(min-width: 700px) {
+
+  .wrapper {
+    width: 1200px;
+  }
+
+  }
+
